@@ -1,0 +1,48 @@
+/* ======= Base ======= */
+* {
+  box-sizing: border-box;
+}
+html, body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', arial, sans-serif;
+  color: #434343;
+  background-color: whitesmoke;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: #778492;
+}
+a {
+  border-radius: 0;
+  color: #3AAA64;
+  transition: all 0.4s ease-in-out;
+}
+a:hover {
+  text-decoration: underline;
+  color: #2d844e;
+}
+a:focus {
+  text-decoration: none;
+}
+#root{
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .App{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+}

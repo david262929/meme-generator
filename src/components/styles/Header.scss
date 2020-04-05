@@ -1,0 +1,22 @@
+header{
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441A5;
+  background: -webkit-linear-gradient(to right, #2a0845, #6441A5);
+  background: linear-gradient(to right, #2a0845, #6441A5);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  img{
+    margin: 0;
+    height: 80%;
+  }
+  p{
+    text-align: center;
+    margin: 0;
+    color: whitesmoke;
+    font-size: 50px;
+  }
+}
